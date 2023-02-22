@@ -1,0 +1,59 @@
+.widget_post {
+    width: 40vw;
+    margin: auto 30vw;
+}
+
+.widget_post form {
+    padding: 10px;
+}
+
+.widget_post form > * {
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.widget_post input[type="text"] {
+    width: -webkit-fill-available;
+    height: 4vh;
+}
+
+.widget_post select {
+    width: -webkit-fill-available;
+    height: 6vh;
+}
+
+.widget_post input[placeholder="Комментарий к заказу"] {
+    height: 10vh;
+}
+
+.widget_post label {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    width: -webkit-fill-available;
+    border-radius: 5px;
+    background-color: #EBF2F8;
+}
+
+.widget_post form:valid label {
+    display: none;
+}
+
+.widget_post input[type="submit"] {
+    background-color: #EBF2F8;
+    border: 1px solid black;
+    color: black;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.widget_post form:invalid input[type="submit"] {
+    background-color: lightgrey;
+    color: gray;
+    border: 0;
+}
+
+.widget_post_result {
+    padding: 10px;
+    font-size: large;
+}
